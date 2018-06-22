@@ -9,4 +9,7 @@ else
 endif
 let g:deoplete#enable_at_startup = 1
 
+"" C, C++ highlighting
+Plug 'zchee/deoplete-clang'
+
 call plug#end()
