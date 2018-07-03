@@ -16,5 +16,5 @@ Plug 'zchee/deoplete-clang'
 
 call plug#end()
 
-
-
+set tabstop=2 shiftwidth=2      " a tab is two spaces (or set this to 4)
+set expandtab                   " use spaces, not tabs (optional)
