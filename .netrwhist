@@ -1,5 +1,7 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhistcnt =9
+let g:netrw_dirhistcnt =1
+let g:netrw_dirhist_1='/Users/dyashkir/consult/bone-fracture/bone_fracture'
+let g:netrw_dirhist_0='/Users/dyashkir/consult/crackfinder/crackfinder/output'
 let g:netrw_dirhist_9='/Users/dyashkir/consult/cogsmart-api/api/test/__pycache__'
 let g:netrw_dirhist_8='/Users/dyashkir/consult/cogsmart-api/api/venv/lib/python3.7/site-packages/flask_jwt_extended'
 let g:netrw_dirhist_7='/Users/dyashkir/consult/cogsmart-api/ui/src/hospital'
@@ -8,4 +10,3 @@ let g:netrw_dirhist_5='/Users/dyashkir/projects/workshop_flask/flask_app/env'
 let g:netrw_dirhist_4='/Users/dyashkir/projects/workshop_flask/flask_app'
 let g:netrw_dirhist_3='/Users/dyashkir/projects/workshop_flask/flask_app/instance'
 let g:netrw_dirhist_2='/Users/dyashkir/projects/workshop_flask/flask_app'
-let g:netrw_dirhist_1='/Users/dyashkir/projects/workshop_flask'
