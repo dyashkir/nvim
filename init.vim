@@ -1,6 +1,6 @@
 call plug#begin('~/.nvim/plugged')
 
-let g:python3_host_prog = '/Users/dyashkir/venv_nvim/bin/python'
+let g:python3_host_prog = '/Users/dyashkir/.config/nvim/venv_nvim/bin/python'
 Plug 'Shougo/deoplete.nvim', { 'do': ':UpdateRemotePlugins' }
 let g:deoplete#enable_at_startup = 0
 
