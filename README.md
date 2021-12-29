@@ -15,3 +15,6 @@
 ## Coc install
 
     :CocInstall coc-pyright
+
+    coc-git
+    coc-spell-checker

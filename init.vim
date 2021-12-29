@@ -6,8 +6,6 @@ let g:deoplete#enable_at_startup = 0
 
 Plug 'Yggdroot/LeaderF', { 'do': './install.sh' }
 
-Plug 'airblade/vim-gitgutter'
-
 Plug 'deoplete-plugins/deoplete-jedi'
 
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
@@ -26,3 +24,7 @@ call plug#end()
 let mapleader = ","
 set tabstop=2 shiftwidth=2      " a tab is two spaces (or set this to 4)
 set expandtab                   " use spaces, not tabs (optional)
+
+
+vmap <leader>a <Plug>(coc-codeaction-selected)
+nmap <leader>a <Plug>(coc-codeaction-selected)
