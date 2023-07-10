@@ -14,6 +14,7 @@ let g:snipMate = { 'snippet_version' : 1 }
 Plug 'MarcWeber/vim-addon-mw-utils'
 Plug 'tomtom/tlib_vim'
 Plug 'garbas/vim-snipmate'
+Plug 'psf/black'
 
 " Optional:
 "Plug 'honza/vim-snippets'
@@ -25,6 +26,12 @@ let mapleader = ","
 set tabstop=2 shiftwidth=2      " a tab is two spaces (or set this to 4)
 set expandtab                   " use spaces, not tabs (optional)
 
+set encoding=UTF-8
+
+set number
+
+set cursorline
+set cursorcolumn
 
 vmap <leader>a <Plug>(coc-codeaction-selected)
 nmap <leader>a <Plug>(coc-codeaction-selected)
