@@ -16,11 +16,11 @@ Plug 'tomtom/tlib_vim'
 Plug 'garbas/vim-snipmate'
 Plug 'psf/black'
 
-" Optional:
-"Plug 'honza/vim-snippets'
+Plug 'rebelot/kanagawa.nvim'
 
 call plug#end()
 
+colorscheme kanagawa
 
 let mapleader = ","
 set tabstop=2 shiftwidth=2      " a tab is two spaces (or set this to 4)
